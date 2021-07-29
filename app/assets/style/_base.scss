@@ -1,0 +1,40 @@
+*,
+*:befor,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 690px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 345px;
+  }
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $light-gray;
+}
