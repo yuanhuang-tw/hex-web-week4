@@ -3,6 +3,7 @@
 @import "variable";
 @import "base";
 
+@import "index";
 @import "qa";
 
 /* --- header --- */
@@ -13,6 +14,10 @@
   background-color: $primary-color;
   padding: 0 88px;
   height: 108px;
+
+  img:hover {
+    opacity: .6;
+  }
 }
 
 @media (max-width: 768px) {
